@@ -1,0 +1,19 @@
+[X]* Manual Walkthrough has been done from Manual tester ( link the manual Jira task )
+[X]* Test Case implemented
+[X]* Mention number of custom code added ( did you try START VARIABLES )
+[X]* Test catalog and Test plan is created
+[X]* Sign off from Manual tester
+[X]* Job has been created in NATIVE,QPC_HOTFIX and QPC_DEV( If not mention the reason)
+[X]* Create backlog for Peer Review for the next takt
+[X]* Create test plan name in JIRA as same as job name in step
+[X]* Map above test plan to manual test case
+[X]* Map Test plan Jira link to STEP job
+
+
+
+//input[@type='email']/ancestor::*
+//input[@type='email']/child::*
+//input[@type='email']/descendant::*   ---> child or grandchild of the current elenent(sub-elements)
+//input[@type='email']/::*following::* --> after current element
+//input[@type='email']/parent::*  ---> parent of current element
+//input[@type='email']/preceding::*  --> parents, grand parents of current element
